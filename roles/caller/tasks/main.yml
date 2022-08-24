@@ -1,0 +1,3 @@
+# role tasks
+- name: Call another role
+  ansible.builtin.include_role: devroles.lint_all.called
